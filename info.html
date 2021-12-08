@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8" />
+ <title>Информирование</title>
+<link href="styles/style.css" rel="stylesheet">
+<link rel="icon" href="images/logo.png">
+</head>
+<body>
+<div class="background">
+</div>
+<nav class="a">
+    <li class="crumb"><a href="index.html"><span class="nonCurrent">Главная</span></a></li>
+    <li class="crumb"><a href="weapon.html"><span class="nonCurrent">ТТХ Вооружения</span></a></li>
+    <li class="crumb"><a href="hardware.html"><span class="nonCurrent">ТТХ Техники</span></a></li>
+    <li class="crumb"><a href="maps.html"><span class="nonCurrent">Топография</span></a></li>
+    <li class="crumb"><a href="info.html"><span class="current">Информирование</span></a></li>
+    <li class="crumb"><a href="links.html"><span class="nonCurrent">Ссылки</span></a></li>
+ 
+</nav>
+<div class="inf_1">
+<h3>Требования к информированию</h3>
+<ol>
+ <li>Время выступления: ~5 минут</li>
+ <li>Освещаться должны <mark>все</mark> события за неделю по выбранной тематике</li>
+  <ol>
+   <li>При выступлении о России, необходим доклад о каждом военном округе</li>
+   <li>При выступлении о международном положении дел приоритет имеют новости связанные с НАТО и Россией</li>
+  </ol>
+ <li>При упоминании в выступлении оружия/техники необходимо указать ТТХ</li>
+ <li>Презентация должна быть составлена в соответствии с установленным шаблоном</li>
+</ol>
+</div>
+<div class="inf_2">
+<h3>Источники для информирования</h3>
+<ul>
+ <li><a href="https://topwar.ru/news/" target="_blank">Сайт "Военное обозрение"</a></li>
+ <li><a href="https://yandex.ru/news/rubric/army" target="_blank">Новости армии и оружия Яндекс.новости</a></li>
+ <li><a href="https://function.mil.ru/news_page/country.htm" target="_blank">Новостной раздел Министерства обороны РФ"</a></li>
+ <li><a href="https://www.rbc.ru/tags/?tag=%D0%B2%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F" target="_blank">Новости о военных учениях. РБК"</a></li>
+</ul>
+<!--script src="js/script.js"></script-->
+</div>
+<h3>Помощь с подготовкой к информированию</h3>
+<form action="http://g06u33.nn2000.info/cgi-bin/form_action.py" target='_blank' method='get' target='_self'>
+<p>Фамилия: <input type="Text" name="last_name" placeholder="Петров" size=8></p>
+<p>Почта: <input placeholder="qwerty@yandex.ru" type="email" name="email"></p>
+<p>Взвод:
+<input type="Radio" name="platoon" value="2101">2101
+<input type="Radio" name="platoon" value="2102">2102
+<input type="Radio" name="platoon" value="2103">2103
+</p>
+ <p>Тема информирования:
+            <select name="info">
+        <OPTION value="Russia">Россия</OPTION> 
+        <OPTION value="International">Иностранные государства</OPTION> 
+        </select>
+        </p>
+<p> Вопросы:
+<br>
+<TEXTAREA name="textarea" rows=4 cols=80>Вопрос заключается в...</TEXTAREA>
+</p>
+<p>Дата: <input type="date" name="date"></p>
+<!--Все нижерасположенные фрагменты перемещать нельзя, редактировать можно-->
+
+<p>Название файла: <input type="Техт" name="000_file_name" value="help_petrov.txt">
+<br>Тип записи в файл:<select name="010_mode">
+<OPTION value="a">a - дозаписать в файл</OPTION>
+<OPTION value="w">w - очисить файл и записать в файл</OPTION>
+</select>
+<input type="hidden" name="function" value="page">
+<input type="hidden" name="page_id" value="3"></p>
+<p> <input type="Reset" name="Reset" value="Обновить">
+<input type="Submit" name="submit" value="Отправить">
+<button><a target="_blank" href="http://g06u33.nn2000.info/tmp/help_petrov.txt">Данные записаны сюда</a></button>
+</p>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+body {
+    background-color: #F5F5DC;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Verdana', 'Times New Roman'
+}
+.background{
+    background-image: url(https://guz.ru/upload/iblock/c79/c79ef924183be29679417a67e6a344fd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 120px;
+    margin: auto;
+    padding: 15px;
+    border: 5px solid #C0C0C0;
+}
+.a{
+    margin: auto;
+    height: 60px;
+    max-width: 100%;
+    background-color: #C0C0C0;
+    text-align: center;
+}
+.current{
+    color: red;
+    font-weight: bold;
+}
+.crumb {
+  display: inline-block;
+  word-spacing: 1rem;
+  margin-right: 100px;
+  position: relative;
+  top: 20px;
+}
+a{
+    text-decoration: none;
+    margin: auto;
+    height: 120px;
+    width: 750px;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+.main{
+    text-align: center;
+    margin-bottom: em;
+}
+.maini{
+    width: 930px;
+    height: 540px;
+    border: 3px solid grey;
+    object-fit: cover;
+    position: relative;
+    left: 275px;
+    top: -55px;
+}
+.flag_1{
+    width: 50px;
+    height: 40px;
+    object-fit: cover;
+    position: relative;
+    top: -110px;
+    left: 350px;
+}
+.flag_2{
+    width: 50px;
+    height: 40px;
+    object-fit: cover;
+    position: relative;
+    top: -110px;
+    right: 350px;
+}
+.wh{
+    background: #FAF0E6;
+    margin: 50px;
+    padding: 15px;
+    border: 2px solid grey;
+    border-collapse: collapse;
+}
+.wh td {
+    border: 1px solid grey;
+    width: 200px;
+}
+.wh th {
+    border: 1px solid grey;
+    width: 200px;
+}
+th, td{
+    width: 20%;
+}
+.links{
+    background-image: url(https://tambour.co.il/wp-content/uploads/2018/07/1363127.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.link{
+    width: 150px;
+    height: 150px;
+}
+.weapons_1{
+    width: 700px;
+    height: 350px;
+    border: 3px solid grey;
+    object-fit: cover;
+    position: absolute;
+    left: 750px;
+    top: 500px;
+}
+.weapons_2{
+    width: 550px;
+    height: 350px;
+    border: 3px solid grey;
+    object-fit: cover;
+    position: absolute;
+    left: 600px;
+    top: 990px;
+}
+.weapons_3{
+    width: 550px;
+    height: 300px;
+    border: 3px solid grey;
+    object-fit: cover;
+    position: absolute;
+    left: 600px;
+    top: 1440px;
+}
+.weapons_4{
+    width: 550px;
+    height: 300px;
+    border: 3px solid grey;
+    object-fit: cover;
+    position: absolute;
+    left: 600px;
+    top: 1820px;
+}
+.hardware_1{
+    width: 700px;
+    height: 350px;
+    border: 3px solid grey;
+    object-fit: cover;
+    position: absolute;
+    left: 600px;
+    top: 400px;
+}
+.hardware_2{
+    width: 700px;
+    height: 350px;
+    border: 3px solid grey;
+    object-fit: cover;
+    position: absolute;
+    left: 600px;
+    top: 760px;
+}
+.hardware_3{
+    width: 700px;
+    height: 350px;
+    border: 3px solid grey;
+    object-fit: cover;
+    position: absolute;
+    left: 600px;
+    top: 1120px;
+}
+.hardware_4{
+    width: 700px;
+    height: 350px;
+    border: 3px solid grey;
+    object-fit: cover;
+    position: absolute;
+    left: 600px;
+    top: 1480px;
+}
+.maps{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    text-align: center;
+}
+.maps img{
+    border: 3px solid grey;
+}
+.vyc{
+    height: 30px;
+    width: 30px;
+}
+.inf_1{
+    white-space: normal;
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    margin-left: 40px;
+}
+.inf_2{
+    white-space: normal;
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    margin-left: 10px;
+}
+li{
+    margin-bottom: 15px;
+}
+label{
+    text-align: center;
+}
+form{
+    margin-left: 60px;
+}
+h3{
+    margin-left: 50px;
+}

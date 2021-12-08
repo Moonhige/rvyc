@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8" />
+ <title>Главная</title>
+<link href="styles/style.css" rel="stylesheet">
+<link rel="icon" href="images/logo.png">
+</head>
+<body>
+<div class="background">
+</div>
+<nav class="a">
+    <li class="crumb"><a href="index.html"> <span class="current">Главная</span></a></li>
+    <li class="crumb"><a href="weapon.html"><span class="nonCurrent">ТТХ Вооружения</span></a></li>
+    <li class="crumb"><a href="hardware.html"><span class="nonCurrent">ТТХ Техники</span></a></li>
+    <li class="crumb"><a href="maps.html"><span class="nonCurrent">Топография</span></a></li>
+    <li class="crumb"><a href="info.html"><span class="nonCurrent">Информирование</span></a></li>
+    <li class="crumb"><a href="links.html"><span class="nonCurrent">Ссылки</span></a></li>
+</nav>
+<div class="main">
+<h2 id="welcome"> Добро пожаловать на главную страницу!</h2>
+<p> Данная страница предназначена для студетов, обучающихся в Военном учебном центре Высшей школы экономики. Здесь вы можете найти основую информацию для "летучек", а также источники для <a href="info.html">информирования</a>.</p>
+<img class="flag_1" src="images/flag.gif">
+<img class="flag_2" src="images/flag.gif">
+</div>
+<img class="maini" src="images/main.jpg">
+<h3>Если у вас есть пожелания/идеи по улучшению данного проекта, пожалуйста, заполните форму. Спасибо!</h3>
+<form action="http://g06u33.nn2000.info/cgi-bin/form_action.py" target='_blank' method='get' target='_self'>
+<p>Фамилия: <input type="Text" name="last_name" placeholder="Петров" size=8></p>
+<p>Телефон: <input placeholder="+7 910 653 95 30" type="tel" name="tel"></p>
+<p>Взвод:
+<input type="Radio" name="platoon" value="2101">2101
+<input type="Radio" name="platoon" value="2102">2102
+<input type="Radio" name="platoon" value="2103">2103
+</p>
+
+<p> Дополнительная информация:
+<br>
+<TEXTAREA name="textarea" rows=4 cols=80>Для заметок</TEXTAREA>
+</p>
+<p>Дата: <input type="date" name="date"></p>
+<!--Все нижерасположенные фрагменты перемещать нельзя, редактировать можно-->
+
+<p>Название файла: <input type="Техт" name="000_file_name" value="petrov.txt">
+<br>Тип записи в файл:<select name="010_mode">
+<OPTION value="a">a - дозаписать в файл</OPTION>
+<OPTION value="w">w - очисить файл и записать в файл</OPTION>
+</select>
+<input type="hidden" name="function" value="page">
+<input type="hidden" name="page_id" value="3"></p>
+<p> <input type="Reset" name="Reset" value="Обновить">
+<input type="Submit" name="submit" value="Отправить">
+<button><a target="_blank" href="http://g06u33.nn2000.info/tmp/petrov.txt">Данные записаны сюда</a></button>
+</p>
+</form>
+
+<footer>
+    <p><a target="_blank" href="images/vyc.png"><img class="vyc" src="images/vyc.png"><a href="#top">Наверх</a><a target="_blank" href="images/vyc.png"><img class="vyc" src="images/vyc.png"></p>
+  </footer>
+</body>
+</html>
